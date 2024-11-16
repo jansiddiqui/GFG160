@@ -7,20 +7,17 @@ int getsecondlargest(vector<int> &arr){
     int largest = INT_MIN, secondlargest = INT_MIN;
     for(int i=0; i<n; i++){
         if(arr[i]>largest){
+            secondlargest = largest;
             largest = arr[i];
         }
-    }
-
-    for(int i=0; i<n; i++){
-        if(arr[i] > secondlargest && arr[i] != largest){
+        else if(arr[i]<largest && arr[i]>secondlargest){
             secondlargest = arr[i];
         }
     }
     return secondlargest;
 }
-
 int main(){
-    vector<int> arr = {4, 5, 25, 21, 35, 22};
-
+    vector<int> arr = {-23, -27, -25, -22, -26, -24, -28};
     cout<<getsecondlargest(arr);
+    return 0;
 }

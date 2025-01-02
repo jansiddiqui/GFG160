@@ -16,6 +16,7 @@ int countSubarrays(vector<int> &arr, int k){
         if(prefixSums.find(currSum - k) != prefixSums.end()){
             res += prefixSums[currSum - k];
         }
+        prefixSums[currSum]++;
     }
     return res;
 }

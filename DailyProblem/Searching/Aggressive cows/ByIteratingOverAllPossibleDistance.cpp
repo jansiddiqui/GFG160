@@ -32,6 +32,8 @@ int aggressiveCows(vector<int> &stalls, int k) {
 }
 
 int main() {
+
+    
     vector<int> stalls = {1, 2, 4, 8, 9}; 
     int k = 3;
     int ans = aggressiveCows(stalls, k);

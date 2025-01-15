@@ -46,7 +46,7 @@ We welcome contributions! Please follow these steps to contribute:
 6. Create a new Pull Request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE]([LICENSE](https://en.wikipedia.org/wiki/MIT_License)) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://en.wikipedia.org/wiki/MIT_License) file for details.
 
 ## Contact
 If you have any questions or feedback, feel free to reach out to me at jan810693@gmail.com or open an issue in the repository.

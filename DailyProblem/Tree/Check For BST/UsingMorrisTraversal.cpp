@@ -48,7 +48,7 @@ int main(){
     Node *root = new Node(10);
     root->left = new Node(5);
     root->right = new Node(20);
-    root->right->left = new Node(9);
+    root->right->left = new Node(11);
     root->right->right = new Node(25);
 
     if(isBST(root)){

@@ -30,3 +30,22 @@ bool findTarget(Node *root, int target){
 
     return dfs(root, st, target);
 }
+
+int main(){
+    Node *root = new Node(7);
+    root->left = new Node(5);
+    root->right = new Node(8);
+    root->left->left = new Node(2);
+    root->left->right = new Node(4);
+    root->right->right = new Node(9);
+
+    int target = 12;
+
+    if(findTarget(root, target)){
+        cout<<"True";
+    }
+    else{
+        cout<<"false";
+    }
+    return 0;
+}

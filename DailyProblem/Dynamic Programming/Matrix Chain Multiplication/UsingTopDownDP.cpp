@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Memoization
 int minMulRec(vector<int> &arr, int i, int j, vector<vector<int>> &memo){
     if(i+1 == j){
         return 0;

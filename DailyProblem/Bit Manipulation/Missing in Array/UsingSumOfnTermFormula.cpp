@@ -2,7 +2,7 @@
 using namespace std;
 
 int missingNum(vector<int> &arr){
-    int n = arr.size();
+    int n = arr.size()+1;
 
     int sum = 0;
 
